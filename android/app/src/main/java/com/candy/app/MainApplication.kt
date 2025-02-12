@@ -1,4 +1,4 @@
-package com.candy_crush
+package com.candy.app
 
 import android.app.Application
 import com.facebook.react.PackageList
