@@ -66,6 +66,7 @@ PODS:
     - React-RCTText (= 0.76.6)
     - React-RCTVibration (= 0.76.6)
   - React-callinvoker (0.76.6)
+  - React-Codegen (0.1.0)
   - React-Core (0.76.6):
     - glog
     - hermes-engine
@@ -1705,6 +1706,13 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - RNIap (12.14.2-rc.1):
+    - RCT-Folly
+    - RCTRequired
+    - RCTTypeSafety
+    - React-Codegen
+    - React-Core
+    - ReactCommon/turbomodule/core
   - RNReanimated (3.16.7):
     - DoubleConversion
     - glog
@@ -1955,6 +1963,7 @@ DEPENDENCIES:
   - ReactCodegen (from `build/generated/ios`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
+  - RNIap (from `../node_modules/react-native-iap`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
   - RNSoundPlayer (from `../node_modules/react-native-sound-player`)
@@ -1964,6 +1973,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - lottie-ios
+    - React-Codegen
     - SocketRocket
 
 EXTERNAL SOURCES:
@@ -2102,6 +2112,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
+  RNIap:
+    :path: "../node_modules/react-native-iap"
   RNReanimated:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
@@ -2128,6 +2140,7 @@ SPEC CHECKSUMS:
   RCTTypeSafety: 0f96bf6c99efc33eb43352212703854933f22930
   React: 1d3d5bada479030961d513fb11e42659b30e97ff
   React-callinvoker: 682c610b9e9d3b93bd8d0075eacb2e6aa304d3e0
+  React-Codegen: 4b8b4817cea7a54b83851d4c1f91f79aa73de30a
   React-Core: 9f33c0fc7776a5796d4dae09c363bd58e6a27efe
   React-CoreModules: 91afb654834f0a1f48fb26dd1f4d1a1460c44def
   React-cxxreact: c7491114266a70f8215306f1d0c4b54a811e77cf
@@ -2182,6 +2195,7 @@ SPEC CHECKSUMS:
   ReactCodegen: 0a0eef9c8cd84c932ae1868832086c6441811e84
   ReactCommon: 3c1c8c6d777103c0e60e37c6c5f08e828e2a77c9
   RNGestureHandler: 0c7eedeaeda77a6e341b148285a1269a8aee56a3
+  RNIap: c1b649a69923bec3afc2551466c2ac03d8fd504e
   RNReanimated: a2692304a6568bc656c04c8ffea812887d37436e
   RNScreens: 771cbeddcd8e11d1d176f1b637e8846a2036390e
   RNSoundPlayer: 7961678d02c7339d9e9cfb78b9f3e8fde17f9df2
@@ -2189,6 +2203,6 @@ SPEC CHECKSUMS:
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   Yoga: be6f55a028e86c83ae066f018e9b5d24ffc45436
 
-PODFILE CHECKSUM: 5d5ac9242ef9cc0f3a83e7da214e5e00cdb0743a
+PODFILE CHECKSUM: 5eae9b4fba0cbb6abc83dd31e468d216fd21e8ca
 
 COCOAPODS: 1.16.2
