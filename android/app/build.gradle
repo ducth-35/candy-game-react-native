@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.candy.app"
+    namespace "com.app.ducth.candy"
     defaultConfig {
-        applicationId "com.candy.app"
+        applicationId "com.app.ducth.candy"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

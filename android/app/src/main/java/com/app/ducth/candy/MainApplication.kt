@@ -1,4 +1,4 @@
-package com.candy.app
+package com.app.ducth.candy
 
 import android.app.Application
 import com.facebook.react.PackageList

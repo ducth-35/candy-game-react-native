@@ -1,4 +1,4 @@
-package com.candy.app
+package com.app.ducth.candy
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
